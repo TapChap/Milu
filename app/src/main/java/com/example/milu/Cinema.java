@@ -68,33 +68,49 @@ public class Cinema extends AppCompatActivity implements View.OnClickListener {
         {
             image.setBackgroundResource(R.drawable.cinema);
         }
-        if(num==12)
+        if(num==2)
         {
             image.setBackgroundResource(R.drawable.mcdonalds);
         }
-        if(num==123)
+        if(num==3)
         {
             image.setBackgroundResource(R.drawable.spa);
         }
-        if(num==1234)
+        if(num==4)
         {
             image.setBackgroundResource(R.drawable.rebar);
         }
-        if(num==12345)
+        if(num==5)
         {
             image.setBackgroundResource(R.drawable.golda);
         }
-        if(num==123456)
+        if(num==6)
         {
             image.setBackgroundResource(R.drawable.aroma);
         }
-        if(num==1234567)
+        if(num==7)
         {
             image.setBackgroundResource(R.drawable.holmesplace);
         }
-        if(num==12345678)
+        if(num==8)
         {
             image.setBackgroundResource(R.drawable.rikoshet);
+        }
+        if(num==9)
+        {
+            image.setBackgroundResource(R.drawable.kiftzuba);
+        }
+        if(num==10)
+        {
+            image.setBackgroundResource(R.drawable.pizza);
+        }
+        if(num==11)
+        {
+            image.setBackgroundResource(R.drawable.ipro);
+        }
+        if(num==12)
+        {
+            image.setBackgroundResource(R.drawable.azrieli);
         }
     }
 

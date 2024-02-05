@@ -358,7 +358,176 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20dp" />
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/button_color" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:text="כניסה חינם לקיפצובה"
+                    android:textSize="20dp"
+                    android:textColor="@color/button_color"
+                    android:textAlignment="center" />
+
+                <android.widget.Button
+                    android:id="@+id/btnDeal9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/kiftzuba" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/button_color" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:text="מגש פיצה אנג'ל חינם"
+                    android:textSize="20dp"
+                    android:textColor="@color/button_color"
+                    android:textAlignment="center" />
+
+                <android.widget.Button
+                    android:id="@+id/btnDeal10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/pizza" />
+                <!--                    android:backgroundTint="@color/button_color"-->
+                <!--                    android:gravity="center_horizontal"-->
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/button_color" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:text="תיקון לסמארטפון חינם באייפרו"
+                    android:textSize="20dp"
+                    android:textColor="@color/button_color"
+                    android:textAlignment="center" />
+
+                <android.widget.Button
+                    android:id="@+id/btnDeal11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/ipro" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/button_color" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:text="50 שקלים למימוש בעזריאלי"
+                    android:textSize="20dp"
+                    android:textColor="@color/button_color"
+                    android:textAlignment="center" />
+
+                <android.widget.Button
+                    android:id="@+id/btnDeal12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/azrieli" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/button_color" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/black"
+                android:layout_height="5dp"/>
 
         </LinearLayout>
     </ScrollView>
