@@ -34,5 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (btnCalc.getId() == view.getId()){
             startActivity(new Intent(this, CompensationActivity.class));
         }
+
+        if (btnHelp.getId() == view.getId()){
+            startActivity(new Intent(this, PsychologistActivity.class));
+        }
     }
 }

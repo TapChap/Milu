@@ -23,38 +23,36 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="10dp"/>
+                android:layout_height="10dp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="300dp"
-                android:layout_height="60dp"
-                android:text="הטבות ומבצעים"
-                android:textSize="40dp"
-                android:textColor="@color/button_color"
-                android:textAlignment="center"
-                android:layout_marginVertical="25dp"
-                android:layout_marginHorizontal="5dp"/>
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginVertical="25dp"
+                    android:text="הטבות ומבצעים"
+                    android:textAlignment="center"
+                    android:textColor="@color/button_color"
+                    android:textSize="40dp" />
 
-            <android.widget.Button
-                android:id="@+id/btnBack"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:gravity="center_horizontal"
-                android:layout_marginLeft="40dp"
-                android:background="@drawable/ic_action_name"
-                android:backgroundTint="@color/button_color"
-
-                />
+                <android.widget.Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/ic_action_name"
+                    android:backgroundTint="@color/button_color"
+                    android:gravity="center_horizontal" />
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20dp"/>
+                android:layout_height="20dp" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -65,9 +63,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="סינמה סיטי 1+1"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal1"
@@ -76,15 +74,15 @@
                     android:layout_marginRight="10dp"
 
                     android:background="@drawable/cinema" />
-<!--                    android:backgroundTint="@color/button_color"-->
-<!--                    android:gravity="center_horizontal"-->
+                <!--                    android:backgroundTint="@color/button_color"-->
+                <!--                    android:gravity="center_horizontal"-->
 
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -94,8 +92,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -106,9 +104,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="50% הנחה במקדונלדס"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal2"
@@ -123,8 +121,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -134,8 +132,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -146,9 +144,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="ספא זוגי בחינם"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal3"
@@ -163,8 +161,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -174,8 +172,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -186,9 +184,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="הגדלת משקה בחינם בריבר"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal4"
@@ -203,8 +201,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -214,8 +212,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -226,9 +224,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="גלידה בחינם בגולדה"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal5"
@@ -243,8 +241,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -254,8 +252,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -266,9 +264,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="קפה ומאפה חינם בארומה"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal6"
@@ -283,8 +281,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -294,8 +292,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -306,9 +304,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="מנוי חודשי להולמס פלייס"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal7"
@@ -323,8 +321,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -334,8 +332,8 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:backgroundTint="@color/black"
-                android:layout_height="5dp"/>
+                android:layout_height="5dp"
+                android:backgroundTint="@color/black" />
 
             <LinearLayout
                 android:layout_width="400dp"
@@ -346,9 +344,9 @@
                     android:layout_width="300dp"
                     android:layout_height="60dp"
                     android:text="100 שקלים למימוש בריקושט"
-                    android:textSize="20dp"
+                    android:textAlignment="center"
                     android:textColor="@color/button_color"
-                    android:textAlignment="center" />
+                    android:textSize="20dp" />
 
                 <android.widget.Button
                     android:id="@+id/btnDeal8"
@@ -356,127 +354,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="10dp"
                     android:background="@drawable/rikoshet" />
-                <!--                    android:backgroundTint="@color/button_color"-->
-                <!--                    android:gravity="center_horizontal"-->
-
             </LinearLayout>
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="20dp"/>
+                android:layout_height="20dp" />
 
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal1"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="1+1 סינמה סיטי"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.9" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal2"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 2"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintHorizontal_bias="0.495"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.65" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal3"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 3"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.4" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal4"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 4"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.9" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal5"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 5"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintHorizontal_bias="0.495"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.65" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal6"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 6"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.4" />-->
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal7"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 7"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.9" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal8"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 8"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintHorizontal_bias="0.495"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.65" />-->
-
-<!--            <android.widget.Button-->
-<!--                android:id="@+id/btnDeal9"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="120dp"-->
-<!--                android:text="מבצע 9"-->
-<!--                android:textSize="40dp"-->
-<!--                app:layout_constraintBottom_toBottomOf="parent"-->
-<!--                app:layout_constraintEnd_toEndOf="parent"-->
-<!--                app:layout_constraintStart_toStartOf="parent"-->
-<!--                app:layout_constraintTop_toTopOf="parent"-->
-<!--                app:layout_constraintVertical_bias="0.4" />-->
-
-
-    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

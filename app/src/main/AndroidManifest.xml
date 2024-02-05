@@ -17,6 +17,10 @@
             android:exported="false"
             android:theme="@style/AppTheme.CustomTheme"/>
         <activity
+            android:name=".PsychologistActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity
             android:name=".DealsActivity"
             android:exported="false" />
         <activity

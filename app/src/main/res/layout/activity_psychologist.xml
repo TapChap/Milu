@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PsychologistActivity">
+
+    <LinearLayout
+        android:id="@+id/appointmentsVerticalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_editor_absoluteX="0dp"
+        app:layout_editor_absoluteY="0dp">
+
+
+
+
+            <LinearLayout
+                android:id="@+id/appointmentFragmentsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                app:layout_editor_absoluteX="0dp"
+                app:layout_editor_absoluteY="0dp">
+
+                <LinearLayout
+                    android:id="@+id/fragmentPsychologistsList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragmentMatchingByPsychologists"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/fragmentMatchingByTimes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <!--android:visibility="gone"-->
+                <LinearLayout
+                    android:id="@+id/fragmentTimetable"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pointingOutTheTimeAndTheDateHeader"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="סמן את היום והשעה שמתאים לך לקיים בהם פגישת ייעוץ פסיכולוגי"
+                        android:textSize="20dp"
+                        android:gravity="center">
+
+                    </TextView>
+
+                    <CalendarView
+                        android:id="@+id/theCalendar"
+                        android:layout_width="match_parent"
+                        android:layout_height="296dp"></CalendarView>
+
+                    <TimePicker
+                        android:id="@+id/theTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="358dp">
+
+                    </TimePicker>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/appointmentButtonsHorizontalLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_editor_absoluteX="0dp"
+            app:layout_editor_absoluteY="0dp">
+
+            <Button
+                android:id="@+id/psychologist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="70dp"
+                android:padding="10dp"
+                android:text="קביעת טיפול"></Button>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
